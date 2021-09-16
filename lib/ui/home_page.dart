@@ -7,7 +7,6 @@ import 'package:pattern_bloc/bloc/product_event.dart';
 import 'package:pattern_bloc/bloc/product_state.dart';
 import 'package:pattern_bloc/data/model/model.dart';
 
-import 'details_page.dart';
 
 class HomePage extends StatefulWidget {
   @override
