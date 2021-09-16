@@ -116,8 +116,8 @@ class _HomePageState extends State<HomePage> {
               autoPlayInterval: 3000,
               children: [
                 Image.network("${productModel!.image}", fit: BoxFit.cover),
-                Image.network("${productModel!.image}", fit: BoxFit.cover),
-                Image.network("${productModel!.brand!.image}",
+                Image.network("${productModel.image}", fit: BoxFit.cover),
+                Image.network("${productModel.brand!.image}",
                     fit: BoxFit.cover),
               ]),
         ),
