@@ -7,7 +7,6 @@ import 'package:pattern_bloc/bloc/product_event.dart';
 import 'package:pattern_bloc/bloc/product_state.dart';
 import 'package:pattern_bloc/data/model/model.dart';
 
-
 class HomePage extends StatefulWidget {
   @override
   _HomePageState createState() => _HomePageState();
@@ -15,7 +14,6 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   ProductBloc? productBloc;
-
 
   @override
   void initState() {
@@ -264,9 +262,7 @@ class _HomePageState extends State<HomePage> {
                               ),
                             ),
                           ),
-                          onTap: (){
-
-                          },
+                          onTap: () {},
                         ),
                         SizedBox(width: 10),
                         InkWell(
@@ -291,7 +287,7 @@ class _HomePageState extends State<HomePage> {
                               ),
                             ),
                           ),
-                          onTap: (){},
+                          onTap: () {},
                         ),
                         SizedBox(width: 10),
                         InkWell(
@@ -319,7 +315,7 @@ class _HomePageState extends State<HomePage> {
                               ),
                             ),
                           ),
-                          onTap: (){},
+                          onTap: () {},
                         ),
                         SizedBox(width: 10),
                         InkWell(
@@ -347,11 +343,10 @@ class _HomePageState extends State<HomePage> {
                               ),
                             ),
                           ),
-                          onTap: (){},
+                          onTap: () {},
                         ),
                       ],
                     ),
-
                   ],
                 ),
               ),
@@ -416,251 +411,293 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
         ),
+
         Padding(
           padding: const EdgeInsets.all(8.0),
           child: Container(
-            width: 321.63,
-            height: 51.04,
+            width: 321.6332702636719,
+            height: 51.035858154296875,
             child: Stack(
-              children: [
-                Positioned.fill(
-                  child: Align(
-                    alignment: Alignment.topLeft,
-                    child: Container(
-                      width: 68.29,
-                      height: 26,
-                      child: Row(
-                        children: [
-                          Container(
-                            width: 16,
-                            height: 15.53,
-                            child: Stack(
-                              children: [
-                                Positioned.fill(
-                                  child: Align(
-                                    alignment: Alignment.bottomRight,
-                                    child: Container(
-                                      width: 15.53,
-                                      height: 15.53,
-                                      decoration: BoxDecoration(
-                                        shape: BoxShape.circle,
-                                        border: Border.all(
-                                          color: Color(0xff27ae60),
-                                          width: 1,
-                                        ),
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                                Positioned.fill(
-                                  child: Align(
-                                    alignment: Alignment.bottomRight,
-                                    child: Container(
-                                      width: 15.53,
-                                      height: 15.53,
-                                      decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(8),
-                                      ),
-                                      child: Image.asset(
-                                          'assets/images/group.png'),
-                                    ),
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ),
-                          SizedBox(width: 8.29),
-                          Text(
-                            "Bkash",
-                            style: TextStyle(
-                              color: Color(0xff616161),
+              children: <Widget>[
+                Positioned(
+                  top: 0.569244384765625,
+                  left: 0,
+                  child: Container(
+                    width: 68.28829956054688,
+                    height: 26,
+                    child: Stack(children: <Widget>[
+                      Positioned(
+                        top: 0,
+                        left: 24.288299560546875,
+                        child: Text(
+                          'Bkash',
+                          textAlign: TextAlign.left,
+                          style: TextStyle(
+                              color: Color.fromRGBO(97, 97, 97, 1),
+                              fontFamily: 'Roboto',
                               fontSize: 16,
-                            ),
-                          ),
-                        ],
+                              letterSpacing: 0,
+                              fontWeight: FontWeight.normal,
+                              height: 1.600000023841858),
+                        ),
                       ),
-                    ),
-                  ),
-                ),
-                Positioned.fill(
-                  child: Align(
-                    alignment: Alignment.topRight,
-                    child: Container(
-                      width: 236.81,
-                      height: 26,
-                      child: Row(
-                        mainAxisSize: MainAxisSize.min,
-                        mainAxisAlignment: MainAxisAlignment.end,
-                        crossAxisAlignment: CrossAxisAlignment.center,
-                        children: [
-                          Container(
-                            width: 16,
-                            height: 15.53,
-                            child: Stack(
-                              children: [
-                                Positioned.fill(
-                                  child: Align(
-                                    alignment: Alignment.bottomRight,
-                                    child: Container(
-                                      width: 15.53,
-                                      height: 15.53,
-                                      decoration: BoxDecoration(
-                                        shape: BoxShape.circle,
-                                        border: Border.all(
-                                          color: Color(0xffff0600),
-                                          width: 1,
-                                        ),
+                      Positioned(
+                        top: 5.232818603515625,
+                        left: 0,
+                        child: Container(
+                          width: 16,
+                          height: 15.534343719482422,
+                          child: Stack(children: <Widget>[
+                            Positioned(
+                                top: 0,
+                                left: 0,
+                                child: Container(
+                                    width: 15.534343719482422,
+                                    height: 15.534343719482422,
+                                    decoration: BoxDecoration(
+                                      border: Border.all(
+                                        color: Colors.black,
+                                        width: 1,
                                       ),
+                                      borderRadius: BorderRadius.all(
+                                          Radius.elliptical(15.534343719482422,
+                                              15.534343719482422)),
+                                    ),
+                                ),
+                            ),
+                            Positioned(
+                              top: 0,
+                              left: 0.46561673283576965,
+                              child: Container(
+                                width: 15.534343719482422,
+                                height: 15.534343719482422,
+                                child: Stack(children: <Widget>[
+                                  Positioned(
+                                    top: 0,
+                                    left: 0,
+                                    child: Image.asset(
+                                      'assets/images/group.png',
                                     ),
                                   ),
-                                ),
-                                Positioned.fill(
-                                  child: Align(
-                                    alignment: Alignment.bottomRight,
-                                    child: Container(
-                                      width: 15.53,
-                                      height: 15.53,
-                                      decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(8),
-                                      ),
-                                      child: Image.asset(
-                                          'assets/images/group1.png'),
-                                    ),
-                                  ),
-                                ),
-                              ],
+                                ]),
+                              ),
                             ),
-                          ),
-                          SizedBox(width: 8.81),
-                          Text(
-                            "Cash on Delivery not available",
-                            style: TextStyle(
-                              color: Color(0xff616161),
-                              fontSize: 16,
-                            ),
-                          ),
-                        ],
+                          ]),
+                        ),
                       ),
-                    ),
-                  ),
-                ),
-                Positioned.fill(
-                  child: Align(
-                    alignment: Alignment.bottomLeft,
-                    child: Container(
-                      width: 68.02,
-                      height: 26,
-                      child: Row(
-                        mainAxisSize: MainAxisSize.min,
-                        mainAxisAlignment: MainAxisAlignment.end,
-                        crossAxisAlignment: CrossAxisAlignment.center,
-                        children: [
-                          Container(
-                            width: 16,
-                            height: 15.53,
-                            child: Stack(
-                              children: [
-                                Positioned.fill(
-                                  child: Align(
-                                    alignment: Alignment.bottomRight,
-                                    child: Container(
-                                      width: 15.53,
-                                      height: 15.53,
-                                      decoration: BoxDecoration(
-                                        shape: BoxShape.circle,
-                                        border: Border.all(
-                                          color: Color(0xff27ae60),
-                                          width: 1,
-                                        ),
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                                Positioned.fill(
-                                  child: Align(
-                                    alignment: Alignment.bottomRight,
-                                    child: Container(
-                                      width: 15.53,
-                                      height: 15.53,
-                                      decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(8),
-                                      ),
-                                      child: Image.asset(
-                                          'assets/images/group.png'),
-                                    ),
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ),
-                          SizedBox(width: 8.02),
-                          Text(
-                            "Bkash",
-                            style: TextStyle(
-                              color: Color(0xff616161),
-                              fontSize: 16,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
+                    ]),
                   ),
                 ),
                 Positioned(
-                  left: 84.98,
-                  top: 23.76,
+                  top: 0,
+                  left: 84.82461547851562,
                   child: Container(
-                    width: 67.72,
+                    width: 236.80865478515625,
                     height: 26,
-                    child: Row(
-                      mainAxisSize: MainAxisSize.min,
-                      mainAxisAlignment: MainAxisAlignment.end,
-                      crossAxisAlignment: CrossAxisAlignment.center,
-                      children: [
-                        Container(
+                    child: Stack(children: <Widget>[
+                      Positioned(
+                        top: 0,
+                        left: 24.80865478515625,
+                        child: Text(
+                          'Cash on Delivery not available',
+                          textAlign: TextAlign.left,
+                          style: TextStyle(
+                              color: Colors.black,
+                              fontFamily: 'Roboto',
+                              fontSize: 16,
+                              letterSpacing:
+                                  0 ,
+                              fontWeight: FontWeight.normal,
+                              height: 1.600000023841858),
+                        ),
+                      ),
+                      Positioned(
+                        top: 4.1078338623046875,
+                        left: 0,
+                        child: Container(
                           width: 16,
-                          height: 15.53,
-                          child: Stack(
-                            children: [
-                              Positioned.fill(
-                                child: Align(
-                                  alignment: Alignment.bottomRight,
-                                  child: Container(
-                                    width: 15.53,
-                                    height: 15.53,
-                                    decoration: BoxDecoration(
-                                      shape: BoxShape.circle,
-                                      border: Border.all(
-                                        color: Color(0xff27ae60),
-                                        width: 1,
-                                      ),
-                                    ),
+                          height: 15.534343719482422,
+                          child: Stack(children: <Widget>[
+                            Positioned(
+                              top: 0,
+                              left: 0,
+                              child: Container(
+                                width: 15.534343719482422,
+                                height: 15.534343719482422,
+                                decoration: BoxDecoration(
+                                  border: Border.all(
+                                    color: Color.fromRGBO(255, 6, 0, 1),
+                                    width: 1,
+                                  ),
+                                  borderRadius: BorderRadius.all(
+                                    Radius.elliptical(
+                                        15.534343719482422, 15.534343719482422),
                                   ),
                                 ),
                               ),
-                              Positioned.fill(
-                                child: Align(
-                                  alignment: Alignment.bottomRight,
-                                  child: Container(
-                                    width: 15.53,
-                                    height: 15.53,
-                                    decoration: BoxDecoration(
-                                      borderRadius: BorderRadius.circular(8),
+                            ),
+                            Positioned(
+                              top: 0,
+                              left: 0.46561673283576965,
+                              child: Container(
+                                width: 15.534343719482422,
+                                height: 15.534343719482422,
+                                child: Stack(children: <Widget>[
+                                  Positioned(
+                                    top: 0,
+                                    left: 0,
+                                    child: Image.asset(
+                                      'assets/images/group1.png',
                                     ),
-                                    child:
-                                        Image.asset('assets/images/group.png'),
                                   ),
+                                ]),
+                              ),
+                            ),
+                          ]),
+                        ),
+                      ),
+                    ]),
+                  ),
+                ),
+                Positioned(
+                  top: 25.035858154296875,
+                  left: 0,
+                  child: Container(
+                    width: 68.02157592773438,
+                    height: 26,
+                    child: Stack(children: <Widget>[
+                      Positioned(
+                        top: 0,
+                        left: 24.021575927734375,
+                        child: Text(
+                          'Bkash',
+                          textAlign: TextAlign.left,
+                          style: TextStyle(
+                              color: Colors.black,
+                              fontFamily: 'Roboto',
+                              fontSize: 16,
+                              letterSpacing:
+                                  0 /*percentages not used in flutter. defaulting to zero*/,
+                              fontWeight: FontWeight.normal,
+                              height: 1.600000023841858),
+                        ),
+                      ),
+                      Positioned(
+                        top: 5.232818603515625,
+                        left: 0,
+                        child: Container(
+                          width: 16,
+                          height: 15.534343719482422,
+                          child: Stack(children: <Widget>[
+                            Positioned(
+                              top: 0,
+                              left: 0,
+                              child: Container(
+                                width: 15.534343719482422,
+                                height: 15.534343719482422,
+                                decoration: BoxDecoration(
+                                  border: Border.all(
+                                    color: Colors.black,
+                                    width: 1,
+                                  ),
+                                  borderRadius: BorderRadius.all(
+                                      Radius.elliptical(15.534343719482422,
+                                          15.534343719482422)),
                                 ),
                               ),
-                            ],
+                            ),
+                            Positioned(
+                              top: 0,
+                              left: 0.46561673283576965,
+                              child: Container(
+                                width: 15.534343719482422,
+                                height: 15.534343719482422,
+                                child: Stack(children: <Widget>[
+                                  Positioned(
+                                    top: 0,
+                                    left: 0,
+                                    child: Image.asset(
+                                      'assets/images/group.png',
+                                    ),
+                                  ),
+                                ]),
+                              ),
+                            ),
+                          ]),
+                        ),
+                      ),
+                    ]),
+                  ),
+                ),
+                Positioned(
+                  top: 23.755218505859375,
+                  left: 84.98037719726562,
+                  child: Container(
+                    width: 67.72427368164062,
+                    height: 26,
+                    child: Stack(
+                      children: <Widget>[
+                        Positioned(
+                          top: 0,
+                          left: 23.724273681640625,
+                          child: Text(
+                            'Bkash',
+                            textAlign: TextAlign.left,
+                            style: TextStyle(
+                                color: Colors.black,
+                                fontFamily: 'Roboto',
+                                fontSize: 16,
+                                letterSpacing:
+                                    0 /*percentages not used in flutter. defaulting to zero*/,
+                                fontWeight: FontWeight.normal,
+                                height: 1.600000023841858),
                           ),
                         ),
-                        SizedBox(width: 7.72),
-                        Text(
-                          "Bkash",
-                          style: TextStyle(
-                            color: Color(0xff616161),
-                            fontSize: 16,
+                        Positioned(
+                          top: 5.232818603515625,
+                          left: 0,
+                          child: Container(
+                            width: 16,
+                            height: 15.534343719482422,
+                            child: Stack(
+                              children: <Widget>[
+                                Positioned(
+                                  top: 0,
+                                  left: 0,
+                                  child: Container(
+                                    width: 15.534343719482422,
+                                    height: 15.534343719482422,
+                                    decoration: BoxDecoration(
+                                      border: Border.all(
+                                        color: Color.fromRGBO(39, 174, 96, 1),
+                                        width: 1,
+                                      ),
+                                      borderRadius: BorderRadius.all(
+                                          Radius.elliptical(15.534343719482422,
+                                              15.534343719482422)),
+                                    ),
+                                  ),
+                                ),
+                                Positioned(
+                                  top: 0,
+                                  left: 0.46561673283576965,
+                                  child: Container(
+                                    width: 15.534343719482422,
+                                    height: 15.534343719482422,
+                                    child: Stack(children: <Widget>[
+                                      Positioned(
+                                        top: 0,
+                                        left: 0,
+                                        child: Image.asset(
+                                          'assets/images/group.png',
+                                          fit: BoxFit.cover,
+                                        ),
+                                      ),
+                                    ]),
+                                  ),
+                                ),
+                              ],
+                            ),
                           ),
                         ),
                       ],
@@ -668,60 +705,75 @@ class _HomePageState extends State<HomePage> {
                   ),
                 ),
                 Positioned(
-                  left: 165.12,
-                  top: 23.97,
+                  top: 23.9691162109375,
+                  left: 165.12039184570312,
                   child: Container(
-                    width: 68.33,
+                    width: 68.32925415039062,
                     height: 26,
-                    child: Row(
-                      mainAxisSize: MainAxisSize.min,
-                      mainAxisAlignment: MainAxisAlignment.end,
-                      crossAxisAlignment: CrossAxisAlignment.center,
-                      children: [
-                        Container(
-                          width: 16,
-                          height: 15.53,
-                          child: Stack(
-                            children: [
-                              Positioned.fill(
-                                child: Align(
-                                  alignment: Alignment.bottomRight,
+                    child: Stack(
+                      children: <Widget>[
+                        Positioned(
+                            top: 0,
+                            left: 24.329254150390625,
+                            child: Text(
+                              'Bkash',
+                              textAlign: TextAlign.left,
+                              style: TextStyle(
+                                  color: Colors.black,
+                                  fontFamily: 'Roboto',
+                                  fontSize: 16,
+                                  letterSpacing:
+                                      0 ,
+                                  fontWeight: FontWeight.normal,
+                                  height: 1.600000023841858),
+                            ),
+                        ),
+                        Positioned(
+                          top: 4.000030517578125,
+                          left: 0,
+                          child: Container(
+                            width: 16,
+                            height: 15.534343719482422,
+                            child: Stack(
+                              children: <Widget>[
+                                Positioned(
+                                  top: 0,
+                                  left: 0,
                                   child: Container(
-                                    width: 15.53,
-                                    height: 15.53,
+                                    width: 15.534343719482422,
+                                    height: 15.534343719482422,
                                     decoration: BoxDecoration(
-                                      shape: BoxShape.circle,
                                       border: Border.all(
-                                        color: Color(0xff27ae60),
+                                        color: Color.fromRGBO(39, 174, 96, 1),
                                         width: 1,
                                       ),
+                                      borderRadius: BorderRadius.all(
+                                          Radius.elliptical(15.534343719482422,
+                                              15.534343719482422)),
                                     ),
                                   ),
                                 ),
-                              ),
-                              Positioned.fill(
-                                child: Align(
-                                  alignment: Alignment.bottomRight,
+                                Positioned(
+                                  top: 0,
+                                  left: 0.46561673283576965,
                                   child: Container(
-                                    width: 15.53,
-                                    height: 15.53,
-                                    decoration: BoxDecoration(
-                                      borderRadius: BorderRadius.circular(8),
+                                    width: 15.534343719482422,
+                                    height: 15.534343719482422,
+                                    child: Stack(
+                                      children: <Widget>[
+                                        Positioned(
+                                          top: 0,
+                                          left: 0,
+                                          child: Image.asset(
+                                            'assets/images/group.png',
+                                          ),
+                                        ),
+                                      ],
                                     ),
-                                    child:
-                                        Image.asset('assets/images/group.png'),
                                   ),
                                 ),
-                              ),
-                            ],
-                          ),
-                        ),
-                        SizedBox(width: 8.33),
-                        Text(
-                          "Bkash",
-                          style: TextStyle(
-                            color: Color(0xff616161),
-                            fontSize: 16,
+                              ],
+                            ),
                           ),
                         ),
                       ],
@@ -732,6 +784,328 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
         ),
+
+        // Padding(
+        //   padding: const EdgeInsets.only(left: 8.0, right: 8.0),
+        //   child: Container(
+        //     width: 321.63,
+        //     height: 50.04,
+        //     child: Stack(
+        //       children: [
+        //         Positioned.fill(
+        //           child: Align(
+        //             alignment: Alignment.topLeft,
+        //             child: Container(
+        //               width: 80.29,
+        //               height: 26,
+        //               child: Row(
+        //                 children: [
+        //                   Container(
+        //                     width: 16,
+        //                     height: 15.53,
+        //                     child: Stack(
+        //                       children: [
+        //                         Positioned.fill(
+        //                           child: Align(
+        //                             alignment: Alignment.bottomRight,
+        //                             child: Container(
+        //                               width: 15.53,
+        //                               height: 15.53,
+        //                               decoration: BoxDecoration(
+        //                                 shape: BoxShape.circle,
+        //                                 border: Border.all(
+        //                                   color: Color(0xff27ae60),
+        //                                   width: 1,
+        //                                 ),
+        //                               ),
+        //                             ),
+        //                           ),
+        //                         ),
+        //                         Positioned.fill(
+        //                           child: Align(
+        //                             alignment: Alignment.bottomRight,
+        //                             child: Container(
+        //                               width: 15.53,
+        //                               height: 15.53,
+        //                               decoration: BoxDecoration(
+        //                                 borderRadius: BorderRadius.circular(8),
+        //                               ),
+        //                               child: Image.asset(
+        //                                   'assets/images/group.png', fit: BoxFit.cover,),
+        //                             ),
+        //                           ),
+        //                         ),
+        //                       ],
+        //                     ),
+        //                   ),
+        //                   SizedBox(width: 5.0),
+        //                   Text(
+        //                     "Bkash",
+        //                     style: TextStyle(
+        //                       color: Color(0xff616161),
+        //                       fontSize: 16,
+        //                     ),
+        //                   ),
+        //                 ],
+        //               ),
+        //             ),
+        //           ),
+        //         ),
+        //
+        //         Padding(
+        //           padding: const EdgeInsets.all(8.0),
+        //           child: Positioned.fill(
+        //             child: Align(
+        //               alignment: Alignment.topCenter,
+        //               child: Container(
+        //                 width: 236.81,
+        //                 height: 26,
+        //                 child: Row(
+        //                   mainAxisSize: MainAxisSize.min,
+        //                   mainAxisAlignment: MainAxisAlignment.end,
+        //                   crossAxisAlignment: CrossAxisAlignment.stretch,
+        //                   children: [
+        //                     Container(
+        //                       width: 16,
+        //                       height: 15.53,
+        //                       child: Stack(
+        //                         children: [
+        //                           Positioned.fill(
+        //                             child: Align(
+        //                               alignment: Alignment.bottomRight,
+        //                               child: Container(
+        //                                 width: 15.53,
+        //                                 height: 15.53,
+        //                                 decoration: BoxDecoration(
+        //                                   shape: BoxShape.circle,
+        //                                   border: Border.all(
+        //                                     color: Color(0xffff0600),
+        //                                     width: 1,
+        //                                   ),
+        //                                 ),
+        //                               ),
+        //                             ),
+        //                           ),
+        //                           Positioned.fill(
+        //                             child: Align(
+        //                               alignment: Alignment.bottomRight,
+        //                               child: Container(
+        //                                 width: 15.53,
+        //                                 height: 15.53,
+        //                                 decoration: BoxDecoration(
+        //                                   borderRadius: BorderRadius.circular(8),
+        //                                 ),
+        //                                 child: Image.asset(
+        //                                     'assets/images/group1.png', fit: BoxFit.cover),
+        //                               ),
+        //                             ),
+        //                           ),
+        //                         ],
+        //                       ),
+        //                     ),
+        //                     SizedBox(width: 3.0),
+        //                     Text(
+        //                       "Cash on Delivery not available",
+        //                       style: TextStyle(
+        //                         color: Color(0xff616161),
+        //                         fontSize: 16,
+        //                       ),
+        //                     ),
+        //                   ],
+        //                 ),
+        //               ),
+        //             ),
+        //           ),
+        //         ),
+        //
+        //         Positioned.fill(
+        //           child: Align(
+        //             alignment: Alignment.bottomLeft,
+        //             child: Container(
+        //               width: 68.02,
+        //               height: 26,
+        //               child: Row(
+        //                 mainAxisSize: MainAxisSize.min,
+        //                 mainAxisAlignment: MainAxisAlignment.end,
+        //                 crossAxisAlignment: CrossAxisAlignment.center,
+        //                 children: [
+        //                   Container(
+        //                     width: 16,
+        //                     height: 15.53,
+        //                     child: Stack(
+        //                       children: [
+        //                         Positioned.fill(
+        //                           child: Align(
+        //                             alignment: Alignment.bottomRight,
+        //                             child: Container(
+        //                               width: 15.53,
+        //                               height: 15.53,
+        //                               decoration: BoxDecoration(
+        //                                 shape: BoxShape.circle,
+        //                                 border: Border.all(
+        //                                   color: Color(0xff27ae60),
+        //                                   width: 1,
+        //                                 ),
+        //                               ),
+        //                             ),
+        //                           ),
+        //                         ),
+        //                         Positioned.fill(
+        //                           child: Align(
+        //                             alignment: Alignment.bottomRight,
+        //                             child: Container(
+        //                               width: 15.53,
+        //                               height: 15.53,
+        //                               decoration: BoxDecoration(
+        //                                 borderRadius: BorderRadius.circular(8),
+        //                               ),
+        //                               child: Image.asset(
+        //                                   'assets/images/group.png',fit: BoxFit.cover),
+        //                             ),
+        //                           ),
+        //                         ),
+        //                       ],
+        //                     ),
+        //                   ),
+        //                   SizedBox(width: 5.0),
+        //                   Text(
+        //                     "Bkash",
+        //                     style: TextStyle(
+        //                       color: Color(0xff616161),
+        //                       fontSize: 16,
+        //                     ),
+        //                   ),
+        //                 ],
+        //               ),
+        //             ),
+        //           ),
+        //         ),
+        //         Positioned(
+        //           left: 84.98,
+        //           top: 23.76,
+        //           child: Container(
+        //             width: 67.72,
+        //             height: 26,
+        //             child: Row(
+        //               mainAxisSize: MainAxisSize.min,
+        //               mainAxisAlignment: MainAxisAlignment.end,
+        //               crossAxisAlignment: CrossAxisAlignment.center,
+        //               children: [
+        //                 Container(
+        //                   width: 16,
+        //                   height: 15.53,
+        //                   child: Stack(
+        //                     children: [
+        //                       Positioned.fill(
+        //                         child: Align(
+        //                           alignment: Alignment.bottomRight,
+        //                           child: Container(
+        //                             width: 15.53,
+        //                             height: 15.53,
+        //                             decoration: BoxDecoration(
+        //                               shape: BoxShape.circle,
+        //                               border: Border.all(
+        //                                 color: Color(0xff27ae60),
+        //                                 width: 1,
+        //                               ),
+        //                             ),
+        //                           ),
+        //                         ),
+        //                       ),
+        //                       Positioned.fill(
+        //                         child: Align(
+        //                           alignment: Alignment.bottomRight,
+        //                           child: Container(
+        //                             width: 15.53,
+        //                             height: 15.53,
+        //                             decoration: BoxDecoration(
+        //                               borderRadius: BorderRadius.circular(8),
+        //                             ),
+        //                             child:
+        //                                 Image.asset('assets/images/group.png',fit: BoxFit.cover),
+        //                           ),
+        //                         ),
+        //                       ),
+        //                     ],
+        //                   ),
+        //                 ),
+        //                 SizedBox(width: 5.0),
+        //                 Text(
+        //                   "Bkash",
+        //                   style: TextStyle(
+        //                     color: Color(0xff616161),
+        //                     fontSize: 16,
+        //                   ),
+        //                 ),
+        //               ],
+        //             ),
+        //           ),
+        //         ),
+        //         Positioned(
+        //           left: 165.12,
+        //           top: 23.97,
+        //           child: Container(
+        //             width: 68.33,
+        //             height: 26,
+        //             child: Row(
+        //               mainAxisSize: MainAxisSize.min,
+        //               mainAxisAlignment: MainAxisAlignment.end,
+        //               crossAxisAlignment: CrossAxisAlignment.center,
+        //               children: [
+        //                 Container(
+        //                   width: 16,
+        //                   height: 15.53,
+        //                   child: Stack(
+        //                     children: [
+        //                       Positioned.fill(
+        //                         child: Align(
+        //                           alignment: Alignment.bottomRight,
+        //                           child: Container(
+        //                             width: 15.53,
+        //                             height: 15.53,
+        //                             decoration: BoxDecoration(
+        //                               shape: BoxShape.circle,
+        //                               border: Border.all(
+        //                                 color: Color(0xff27ae60),
+        //                                 width: 1,
+        //                               ),
+        //                             ),
+        //                           ),
+        //                         ),
+        //                       ),
+        //                       Positioned.fill(
+        //                         child: Align(
+        //                           alignment: Alignment.bottomRight,
+        //                           child: Container(
+        //                             width: 15.53,
+        //                             height: 15.53,
+        //                             decoration: BoxDecoration(
+        //                               borderRadius: BorderRadius.circular(8),
+        //                             ),
+        //                             child:
+        //                                 Image.asset('assets/images/group.png',fit: BoxFit.cover),
+        //                           ),
+        //                         ),
+        //                       ),
+        //                     ],
+        //                   ),
+        //                 ),
+        //                 SizedBox(width: 5.0),
+        //                 Text(
+        //                   "Bkash",
+        //                   style: TextStyle(
+        //                     color: Color(0xff616161),
+        //                     fontSize: 16,
+        //                   ),
+        //                 ),
+        //               ],
+        //             ),
+        //           ),
+        //         ),
+        //       ],
+        //     ),
+        //   ),
+        // ),
         Card(
           child: Padding(
             padding:

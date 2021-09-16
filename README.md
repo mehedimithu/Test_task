@@ -2,6 +2,8 @@
 
 A new Flutter project.
 
+It is an ecommerce app. I have used bloc pattern with it. 
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
